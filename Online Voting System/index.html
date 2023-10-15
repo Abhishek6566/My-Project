@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/designs.css">
+    
+    </head>
+    <body>
+       
+        <center>
+        <div id="headersection">
+            <h1>Online Voting System</h1>
+        
+            
+        </div>
+        
+        <hr>
+        <div id="bodysection">
+            <form action="api/loginn.php" method="POST">
+                <h2>Login</h2>
+                <input type="number" name="mobile" placeholder="Enter mobile" required><br><br>
+                <input type="password" name="password" placeholder="Enter password" required><br><br>
+                <select id="box" name="role">
+                    <option value="1">Voter</option>
+                    <option value="2">Department</option>
+                    
+                </select><br><br>
+                <button id="btn" type="submit">Login</button><br><br>
+                New user?<a href="front/registerr.html">Register here</a>
+                
+    
+            </form>
+        </div>
+    </center>
+        
+
+    </body>
+</html>
